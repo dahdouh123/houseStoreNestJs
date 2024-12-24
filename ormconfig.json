@@ -1,0 +1,42 @@
+[
+  {
+    "name": "store",
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "",
+    "database": "store",
+    "synchronize": true,
+    "logging": true,
+    "entities": [
+      "dist/entities/**/*.entity{.ts,.js}"
+    ],
+    "migrations": [
+      "dist/migrations/store/*.js"
+    ],
+    "cli": {
+      "migrationsDir": "src/migrations/store"
+    }
+  },
+  {
+    "name": "storeidentity",
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "",
+    "database": "storeidentity",
+    "synchronize": true,
+    "logging": true,
+    "entities": [
+      "dist/entities/storeidentity/**/*.entity{.ts,.js}"
+    ],
+    "migrations": [
+      "dist/migrations/storeidentity/*.js"
+    ],
+    "cli": {
+      "migrationsDir": "src/migrations/storeidentity"
+    }
+  }
+]
