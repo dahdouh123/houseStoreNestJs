@@ -24,7 +24,8 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+House Store E-Commerce Order Application! 🎉
+This application is designed with Angular / Node js  (Nest js)  to streamline the ordering process for both users and admins, providing a seamless experience for everyone involved. From user-friendly interfaces to efficient admin controls, I’ve poured my passion and expertise into creating a robust solution that meets the needs of modern e-commerce.
 
 ## Project setup
 
